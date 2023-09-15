@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let canvas = document.getElementById("particleCanvas");
     let ctx = canvas.getContext("2d");
     let particleNumber = 15;
-    let particleColour = "#070707";
     let particleRingWidth = window.innerWidth / (window.innerWidth < 1000 ? 4 : 10);
 
     let loadingText = document.getElementById("loadingText");
